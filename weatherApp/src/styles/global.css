@@ -1,0 +1,85 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #8FB2F5;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set a dark background for the whole page */
+  }
+  
+  h1 {
+    font-size: 2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #8FB2F5;
+  }
+  
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Set the text color to white */
+}
+
+.logo{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.title p {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.search {
+    margin-top: 1em;
+    width: 50%;
+}
+
+.input {
+    padding: 18px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    width: 100%; 
+    color: #fff;
+    background: #22222F;
+}
+span {
+    color: #8FB2F5;
+}
