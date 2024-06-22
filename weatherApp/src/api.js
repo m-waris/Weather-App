@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const options = {
+export const geoApiOptions = {
   method: 'GET',
   url: 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities',
   headers: {
@@ -8,10 +8,9 @@ const options = {
     'x-rapidapi-host': 'wft-geo-db.p.rapidapi.com'
   }
 };
-
 try {
-	const response = await axios.request(options);
-	console.log(response.data);
+  const response = await axios.request(options);
+  console.log(response.data);
 } catch (error) {
-	console.error(error);
+  console.error(error);
 }
