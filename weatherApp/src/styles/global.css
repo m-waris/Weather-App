@@ -1,24 +1,31 @@
-  
   a {
     font-weight: 500;
     color: #646cff;
     text-decoration: inherit;
   }
+
   a:hover {
     color: #8FB2F5;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
-    background-color: #000; /* Set a dark background for the whole page */
+    background-color: #13131A;
+    background-image: url('../assets/imgs/Background.png');
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
   }
-  
+
   h1 {
     font-size: 2em;
     line-height: 1.1;
   }
-  
+
   button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -26,45 +33,53 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
+    background-color: #13131A;
     cursor: pointer;
     transition: border-color 0.25s;
   }
+
   button:hover {
     border-color: #8FB2F5;
   }
-  
-.main{
+
+  .main {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff; 
-}
+    color: #fff;
+  }
 
-.logo{
+  .logo {
     margin-top: -50px;
     margin-bottom: 50px;
-}
+  }
 
-.title h1 {
+  .title h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5em;
-}
+  }
 
-.title p {
+  .title p {
     font-size: 1.25rem;
-    color: rgba(255, 255, 255, 0.7); 
-}
+    color: rgba(255, 255, 255, 0.7);
+  }
 
-.search {
+  .search {
     margin-top: 1em;
     width: 50%;
-}
+  }
 
 
-span {
+  span {
     color: #8FB2F5;
-}
+  }
+
+  .forecast {
+    background-image: url('../assets/imgs/clear-night.png');
+    background-color: rgba(143, 178, 245, 1);
+    background-size: cover;
+ 
+  }
